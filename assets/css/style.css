@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	/*text-align: center;*/
+	background: #eeeeee;
+	/*background-image: url("../images/background.png");*/
+	color: #777777;
+}
+
+.Letter {
+	position: relative;
+	float: left;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	margin: 1px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	/*vertical-align: top;*/
+	background: #ffffff;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#Heading {
+	display: block;
+}
+
+#Letters {
+	display: block;
+	float: left;
+}
+
+#Info {
+	display: block;
+	float: left;
+}
+
+#Man {
+	width: 300px;
+	height: 300px;
+	margin: 1px;
+	display: inline-block;
+	float: right;
+	background-image: url("../images/man0.png");
+}
