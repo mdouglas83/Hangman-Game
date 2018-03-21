@@ -57,6 +57,6 @@ h1 {
 }
 
 #Foot {
-	display: block;
+	display: inline-block;
 	background-color: #ddddff;
 }
