@@ -31,6 +31,9 @@ body {
 h1 {
 	font-size: 32px;
 	font-weight: bold;
+	margin: 4px 0px 4px 0px;
+	color: #333333;
+	background-color: #ffffff;
 }
 
 #Heading {
@@ -40,7 +43,7 @@ h1 {
 #Letters {
 	display: block;
 	float: left;
-	margin-bottom: 4px;
+	margin-bottom: 6px;
 	border-bottom: 4px solid #ddddff;
 }
 
