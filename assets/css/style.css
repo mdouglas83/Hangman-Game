@@ -55,3 +55,8 @@ h1 {
 	float: right;
 	background-image: url("../images/man0.png");
 }
+
+#Foot {
+	display: block;
+	background-color: #ddddff;
+}
