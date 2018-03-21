@@ -7,9 +7,9 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	/*text-align: center;*/
-	background-color: #dddddd;
 	/*background-image: url("../images/background.png");*/
 	color: #777777;
+	background-color: #eeeeee;
 }
 
 .Letter {
@@ -35,19 +35,16 @@ h1 {
 
 #Heading {
 	display: block;
-	background-color: #eeeeee;
 }
 
 #Letters {
 	display: block;
 	float: left;
-	background-color: #eeeeee;
 }
 
 #Info {
 	display: block;
 	float: left;
-	background-color: #eeeeee;
 }
 
 #Man {
@@ -57,5 +54,4 @@ h1 {
 	display: inline-block;
 	float: right;
 	background-image: url("../images/man0.png");
-	background-color: #eeeeee;
 }
