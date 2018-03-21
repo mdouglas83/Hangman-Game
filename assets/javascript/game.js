@@ -129,6 +129,7 @@ function lookKey(key) {
 					}
 				}
 				document.getElementById("Letter" + n).textContent = tempWord[tempWord.length - 1];
+
 				n++;
 			}
 			wordFill = tempWord;
@@ -175,26 +176,29 @@ function addLimbs() {
 	document.getElementById("Man").style = 'background-image: url("./assets/images/man' + keyMisses.length + '.png");';
 }
 
-document.onkeypress = function(event) {
-	var key = event.keyCode;
-	if (!playing) {
-		if (key === 13) {
-			//getTEXT(urlTEXT, parseText);
-	    	/*if (words == undefined) {
-	    		getJSON(urlJSON, addWords);
-	    		getTEXT(urlTEXT, parseText);
-	    	} else {
-	    		newWord();
-	    	}*/
-	    	newWord();
-	    	playing = true;
-	    	htmlUpdate();
-		}
-	} else {
-		if ((key >= 65 && key <= 90) || (key >= 97 && key <= 122)) {
-			var cKey = event.key.toLowerCase();
-			lookKey(cKey);
+document.onload = function(event) {
+	addLimbs();
+	document.onkeypress = function(event) {
+		var key = event.keyCode;
+		if (!playing) {
+			if (key === 13) {
+				//getTEXT(urlTEXT, parseText);
+			/*if (words == undefined) {
+				getJSON(urlJSON, addWords);
+				getTEXT(urlTEXT, parseText);
+			} else {
+				newWord();
+			}*/
+			newWord();
+			playing = true;
 			htmlUpdate();
+			}
+		} else {
+			if ((key >= 65 && key <= 90) || (key >= 97 && key <= 122)) {
+				var cKey = event.key.toLowerCase();
+				lookKey(cKey);
+				htmlUpdate();
+			}
 		}
-	}
+	};
 };
