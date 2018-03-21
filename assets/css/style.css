@@ -44,7 +44,7 @@ h1 {
 	display: block;
 	float: left;
 	padding: 5px 0px 15px 0px;
-	border-bottom: 3px solid #bbbbee;
+	border-bottom: 7px dashed #c08899;
 }
 
 #Info {
