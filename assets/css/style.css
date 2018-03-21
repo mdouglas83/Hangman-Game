@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	/*text-align: center;*/
-	background: #eeeeee;
+	background-color: #dddddd;
 	/*background-image: url("../images/background.png");*/
 	color: #777777;
 }
@@ -24,7 +24,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	/*vertical-align: top;*/
-	background: #ffffff;
+	background-color: #ffffff;
 	display: inline-block;
 }
 
@@ -35,6 +35,7 @@ h1 {
 
 #Heading {
 	display: block;
+	background-color: #eeeeee;
 }
 
 #Letters {
@@ -45,6 +46,7 @@ h1 {
 #Info {
 	display: block;
 	float: left;
+	background-color: #eeeeee;
 }
 
 #Man {
