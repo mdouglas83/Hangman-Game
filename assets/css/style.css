@@ -43,7 +43,7 @@ h1 {
 #Letters {
 	display: block;
 	float: left;
-	margin-bottom: 6px;
+	padding-bottom: 2px;
 	border-bottom: 4px solid #ddddff;
 }
 
