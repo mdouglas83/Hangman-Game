@@ -31,6 +31,7 @@ body {
 h1 {
 	font-size: 36px;
 	font-weight: bold;
+	text-decoration: underline;
 	padding: 5px 0px 5px 0px;
 	color: #333333;
 }
@@ -42,8 +43,8 @@ h1 {
 #Letters {
 	display: block;
 	float: left;
-	padding: 5px 0px 10px 0px;
-	border-bottom: 4px solid #c0c0ee;
+	padding: 5px 0px 15px 0px;
+	border-bottom: 5px solid #c0c0ee;
 }
 
 #Info {
