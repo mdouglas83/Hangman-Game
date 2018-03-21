@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -59,4 +60,9 @@ h1 {
 	display: inline-block;
 	float: right;
 	background-image: url("../images/man0.png");
+	position: relative;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-repeat: no-repeat;
+	z-index: 1000;
 }
