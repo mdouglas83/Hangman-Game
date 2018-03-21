@@ -43,7 +43,7 @@ h1 {
 }
 
 #Info {
-	display: block;
+	display: inline-block;
 	float: left;
 }
 
