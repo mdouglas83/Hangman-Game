@@ -41,6 +41,7 @@ h1 {
 #Letters {
 	display: block;
 	float: left;
+	background-color: #eeeeee;
 }
 
 #Info {
@@ -56,4 +57,5 @@ h1 {
 	display: inline-block;
 	float: right;
 	background-image: url("../images/man0.png");
+	background-color: #eeeeee;
 }
