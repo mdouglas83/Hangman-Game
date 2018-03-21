@@ -23,7 +23,6 @@ body {
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	/*vertical-align: top;*/
 	background-color: #ffffff;
 	display: inline-block;
 }
@@ -58,10 +57,4 @@ h1 {
 	margin: 1px;
 	display: inline-block;
 	float: right;
-	background-image: url("../images/man0.png");
-	position: relative;
-	background-position-x: 0px;
-	background-position-y: 0px;
-	background-repeat: no-repeat;
-	z-index: 1000;
 }
