@@ -52,7 +52,7 @@ h1 {
 }
 
 #Man {
-	background: url("") no-repeat center center fixed;
+	background: url("") no-repeat center center scroll;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
