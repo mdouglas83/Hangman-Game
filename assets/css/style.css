@@ -33,7 +33,6 @@ h1 {
 	font-weight: bold;
 	padding: 5px 0px 5px 0px;
 	color: #333333;
-	background-color: #ffffff;
 }
 
 #Heading {
@@ -43,7 +42,7 @@ h1 {
 #Letters {
 	display: block;
 	float: left;
-	padding-bottom: 4px;
+	padding: 5px 0px 10px 0px;
 	border-bottom: 4px solid #c0c0ee;
 }
 
