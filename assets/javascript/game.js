@@ -173,7 +173,7 @@ function htmlUpdate() {
 }
 
 function addLimbs() {
-	document.getElementById("Man").style.backgroundImage = "url(data:assets/images/man" + keyMisses.length + ".png)";
+	document.getElementById("Man").style.backgroundImage = "url(./assets/images/man" + keyMisses.length + ".png)";
 }
 
 window.onload = function() {
