@@ -52,14 +52,20 @@ h1 {
 }
 
 #Man {
-	background: url("") no-repeat center center scroll;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	margin: 1px;
 	width: 300px;
 	height: 300px;
-	margin: 1px;
 	display: inline-block;
 	float: right;
 }
