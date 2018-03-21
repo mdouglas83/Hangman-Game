@@ -57,5 +57,5 @@ h1 {
 	margin: 1px;
 	display: inline-block;
 	float: right;
-	clear: both;
+	background-position: center;
 }
