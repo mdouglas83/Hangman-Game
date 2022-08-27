@@ -183,15 +183,15 @@ window.onload = function() {
 		if (!playing) {
 			if (key === 13) {
 				//getTEXT(urlTEXT, parseText);
-			/*if (words == undefined) {
-				getJSON(urlJSON, addWords);
-				getTEXT(urlTEXT, parseText);
-			} else {
+				/*if (words == undefined) {
+					getJSON(urlJSON, addWords);
+					getTEXT(urlTEXT, parseText);
+				} else {
+					newWord();
+				}*/
 				newWord();
-			}*/
-			newWord();
-			playing = true;
-			htmlUpdate();
+				playing = true;
+				htmlUpdate();
 			}
 		} else {
 			if ((key >= 65 && key <= 90) || (key >= 97 && key <= 122)) {
